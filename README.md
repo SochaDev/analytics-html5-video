@@ -1,4 +1,4 @@
-# html5-video-analytics
+# analytics-html5-video
 Captures HTML5 video events for Google Analytics
 
 These events are supported:
@@ -13,9 +13,9 @@ These events are supported:
 
 ## Installation
 
-Install using Bower: `bower install html5-video-analytics`
+Install using Bower: `bower install analytics-html5-video`
 
-Include `bower_components/html5-video-analytics.js` in your HTML file after your Google Analytics code.
+Include `bower_components/analytics-html5-video.js` in your HTML file after your Google Analytics code.
 
 Example:
 
@@ -31,7 +31,7 @@ Example:
 </script>
 
 <!-- Tracking Support -->
-<script type="text/javascript" src="bower_components/html5-video-analytics/html5-video-analytics.js"></script>
+<script type="text/javascript" src="bower_components/analytics-html5-video/analytics-html5-video.js"></script>
 <script type="text/javascript">
 	document.addEventListener('DOMContentLoaded', init, false)
 	var videoId = document.getElementById('my-video-id')
