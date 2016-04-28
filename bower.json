@@ -1,0 +1,20 @@
+{
+  "name": "html5-video-analytics",
+  "description": "Captures HTML5 video events for Google Analytics",
+  "version": "1.0.0",
+  "authors": [
+    "Matt West <matt@mattdanger.net>"
+  ],
+  "License":"MIT",
+  "keywords": [
+    "js",
+    "jquery",
+    "googleanalytics"
+  ],
+  "main": [
+    "html5-video-analytics.js"
+  ],
+  "ignore": [
+    "/.*"
+  ]
+}
