@@ -30,12 +30,15 @@ function videoTimeUpdate () {
 		case sessionStorage.getItem('one'):
 			ga('send', 'event', 'video', '25% video played', videoTitle)
 			sessionStorage.setItem('one', null)
+			break;
 		case sessionStorage.getItem('two'):
 			ga('send', 'event', 'video', '50% video played', videoTitle)
 			sessionStorage.setItem('two', null)
+			break;
 		case sessionStorage.getItem('three'):
 			ga('send', 'event', 'video', '75% video played', videoTitle)
 			sessionStorage.setItem('three', null)
+			break;
 	}
 }
 
